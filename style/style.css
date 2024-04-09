@@ -17,15 +17,11 @@ body {
     padding: 10px 20px;
 } */
 
-/* header {
-    background-color: #02336d;
-    color: white;
-    height: 5rem;
-    padding-left: 5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-} */
+header {
+    
+}
+  
+    
 
 .links {
     background-color: #02336d;
@@ -47,3 +43,28 @@ nav ul {
     list-style: none;
     margin-left: 1rem;
 }
+
+main {
+    background-image: url(/img/jumbo.png);
+    background-size: contain;
+    height: 25em;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    padding: 20%;
+}
+
+main h1 {
+    font-size: 3rem;
+    
+}
+
+.paragraf {
+
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    }
