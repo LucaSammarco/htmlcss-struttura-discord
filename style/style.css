@@ -7,6 +7,8 @@
 
 body {
     font-family: Cabin;
+    /* display: flex;
+    justify-content: center; */
 }
 /* nav {
     display: flex;
@@ -20,17 +22,18 @@ body {
 header {
     
 }
-  
+
     
 
 .links {
     background-color: #02336d;
     color: white;
-    height: 5rem;
-    padding-left: 5rem;
+    /* height: 5rem; */
+    /* padding-left: 5rem; */
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-shrink: 1;
 }
 
 
@@ -41,10 +44,10 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
-    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-main {
+.header-main {
     background-image: url(/img/jumbo.png);
     background-size: contain;
     height: 25em;
@@ -55,10 +58,16 @@ main {
     color: white;
     flex-direction: column;
     padding: 20%;
+
+    /* * Perchè non è centrato? */ */
+/* Add Shrink? */
+/* Perchè se non metto altezza testo va giu? */
 }
 
-main h1 {
-    font-size: 3rem;
+
+
+.header-main h1 {
+    font-size: 2.5rem;
     
 }
 
@@ -68,3 +77,48 @@ main h1 {
     margin-top: 1rem;
     margin-bottom: 1rem;
     }
+
+main {
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image-text {
+    display: flex;
+    margin-bottom: 2rem
+}
+
+.image-text2 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 2rem
+}
+
+.imag {
+    width: 55%;
+}
+
+.imag img{
+    /* width: 100%;
+    height: 100%;
+     */
+}
+
+
+
+.text {
+    padding-left: 8rem;
+    margin-top: 4rem;
+}
+
+.text h2 {
+    font-size: 2.5em;
+}
+
+.text p {
+    font-size: em;
+}
+
+/* Aggiustare grandezza foto e allineamento testo */
