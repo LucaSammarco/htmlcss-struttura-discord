@@ -9,15 +9,15 @@ body {
     font-family: Cabin;
     margin: 0 auto;
 }
-/* .flex {
+.flex {
     display: flex;
-} */
+}
 
 .logo-bar {
     background-color: #255ee9;
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem  1.5rem;
+    padding: 1rem  1.5rem;
 }
 
 .logo-bar {
@@ -38,4 +38,18 @@ header ul {
 
 header ul li {
     padding-right: 1rem;
+}
+
+.jumbo {
+    background-color: #25e928;
+    color: white;
+    padding: 5rem;
+    
+    justify-content:center;
+        
+    align-items: center;
+}
+
+.jumbo button {
+   
 }
