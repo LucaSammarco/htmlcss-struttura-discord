@@ -55,11 +55,10 @@ header ul li {
 }
 
 .jumbo button {
-   
 }
 
 .invite {
-    background-color: #255ee9;
+    background-color: #ed2d2d;
     color: white;
     padding: 5rem;
     align-items: center;
@@ -74,4 +73,34 @@ header ul li {
 
 .small-column {
     width: 45%; 
+}
+
+.download {
+    background-color: #25e928;
+    color: white;
+    padding: 5rem;
+    align-items: center;
+}
+
+footer {
+    background-color: #23272a;
+    color: white;
+    padding: 2rem;
+    
+}
+
+.lan-logo {
+    width: 10%;
+    
+}
+
+footer nav
+{ width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: space-between;
 }
