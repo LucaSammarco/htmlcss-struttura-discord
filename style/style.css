@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1200px;
+}
+
+body {
+    font-family: Cabin;
+    margin: 0 auto;
+}
+/* .flex {
+    display: flex;
+} */
+
+.logo-bar {
+    background-color: #255ee9;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem  1.5rem;
+}
+
+.logo-bar {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    padding-right: 1rem;
+}
